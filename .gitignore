@@ -1,0 +1,12 @@
+# created by virtualenv automatically
+.idea
+bin
+etc
+lib
+share
+
+pyvenv.cfg
+resources
+service-eye.iml
+
+output_image.png
