@@ -1,0 +1,14 @@
+names:
+  '0': car
+  '1': traffic sign
+  '2': truck
+  '3': bike
+  '4': bus
+  '5': traffic light
+  '6': rider
+  '7': person
+  '8': motor
+  '9': train
+path: /Users/mzhang/Documents/0b cs projects/service-eye/resources/bdd-sample
+train: /Users/mzhang/Documents/0b cs projects/service-eye/resources/bdd-sample/train
+val: /Users/mzhang/Documents/0b cs projects/service-eye/resources/bdd-sample/val

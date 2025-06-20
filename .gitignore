@@ -4,9 +4,11 @@ bin
 etc
 lib
 share
+runs
 
 pyvenv.cfg
 resources
 service-eye.iml
 
 output_image.png
+yolov8n.pt
