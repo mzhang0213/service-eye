@@ -17,26 +17,31 @@ def make_copy(dimension,file_dimension,filename):
 #given array choose rnd index
 def choose_rnd(list):
     ind = random.randint(0,len(list))
-    return ind if ind not in inds else choose_rnd(list)
+    return ind if ind not in inds and list[ind][:1] != "." else choose_rnd(list)
 
 for fd in file_dimensions:
-    paths_train = sorted(os.listdir(os.path.join(CWD,"resources","bdd","images",fd)))
+    paths_train = (sorted(os.listdir(os.path.join(CWD,"resources","bdd","images",fd))))
+
 
     inds = []
 
     rng = 5000
-    if fd == "test":
-        rng = 2000
+    if fd == "train":
+        rng = 4000
     else:
-        rng = 1000
+        rng = 2000
 
     for i in range(rng):
         inds.append(choose_rnd(paths_train))
 
+
     sample_files = []
+
     for i in inds:
         file = paths_train[i]
+
         file = file[:-4] #remove extension
+
         sample_files.append(file)
 
     for i in range(len(sample_files)):

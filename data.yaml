@@ -1,14 +1,14 @@
 names:
-  '0': car
-  '1': traffic sign
-  '2': truck
-  '3': bike
-  '4': bus
+  '0': traffic sign
+  '1': person
+  '2': car
+  '3': bus
+  '4': truck
   '5': traffic light
   '6': rider
-  '7': person
+  '7': bike
   '8': motor
   '9': train
-path: /Users/mzhang/Documents/0b cs projects/service-eye/resources/bdd-sample
-train: /Users/mzhang/Documents/0b cs projects/service-eye/resources/bdd-sample/train
-val: /Users/mzhang/Documents/0b cs projects/service-eye/resources/bdd-sample/val
+path: C:\Users\Samuel Du\Desktop\IdeaProjects\service-eye\resources\bdd-sample
+train: C:\Users\Samuel Du\Desktop\IdeaProjects\service-eye\resources\bdd-sample\train
+val: C:\Users\Samuel Du\Desktop\IdeaProjects\service-eye\resources\bdd-sample\val
