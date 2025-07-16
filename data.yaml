@@ -1,14 +1,17 @@
 names:
-  '0': traffic sign
-  '1': person
-  '2': car
-  '3': bus
-  '4': truck
-  '5': traffic light
-  '6': rider
-  '7': bike
-  '8': motor
-  '9': train
-path: C:\Users\Samuel Du\Desktop\IdeaProjects\service-eye\resources\bdd-sample
-train: C:\Users\Samuel Du\Desktop\IdeaProjects\service-eye\resources\bdd-sample\train
-val: C:\Users\Samuel Du\Desktop\IdeaProjects\service-eye\resources\bdd-sample\val
+  '0': yellow walking sign
+  '1': crosswalk
+  '10': bike
+  '11': bus
+  '12': train
+  '2': walk light
+  '3': stairs
+  '4': large obj
+  '5': small obj
+  '6': car
+  '7': truck
+  '8': person
+  '9': motor
+path: /Users/mzhang/Documents/0b cs projects/service-eye/resources/yolodata
+train: /Users/mzhang/Documents/0b cs projects/service-eye/resources/yolodata/train
+val: /Users/mzhang/Documents/0b cs projects/service-eye/resources/yolodata/val
