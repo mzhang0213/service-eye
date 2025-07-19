@@ -1,16 +1,16 @@
 names:
   '0': yellow walking sign
   '1': crosswalk
-  '10': bike
-  '11': bus
+  '10': bus
+  '11': bike
   '12': train
   '2': walk light
   '3': stairs
   '4': large obj
   '5': small obj
   '6': car
-  '7': truck
-  '8': person
+  '7': person
+  '8': truck
   '9': motor
 path: /Users/mzhang/Documents/0b cs projects/service-eye/resources/yolodata
 train: /Users/mzhang/Documents/0b cs projects/service-eye/resources/yolodata/train
