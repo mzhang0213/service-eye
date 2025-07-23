@@ -1,0 +1,5 @@
+-reduce amount of cars
+-rethink the "small object" - not enough being detected
+    -large poles
+
+-read yolo guides on optimization
